@@ -1,0 +1,54 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# ---------- Virtual environments ----------
+.venv/
+venv/
+env/
+ENV/
+
+# ---------- IDE / editors ----------
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ---------- Jupyter ----------
+.ipynb_checkpoints/
+*.ipynb
+
+# ---------- Project: data / weights / results (not released) ----------
+data/
+models/
+results/
+shap_results/
+statistical_analysis/
+
+# ---------- Project: paper & references (not released) ----------
+paper/
+reference_paper/
+docs/
+model_architecture/
+
+# ---------- Project: external analysis scripts (not released) ----------
+compare_auroc.py
+evaluate_baselines.py
+shap_analysis.py
+expert_specialization/
+_check_labels.py
+
+# ---------- Logs & misc ----------
+*.log
+*.tmp
+*.bak
